@@ -1,6 +1,7 @@
 # Stock-Trading-API
-##### Docker Compose for Django, Celery, Redis, and Postgres
+
 This repository contains the implementation of a stock trading system with various endpoints for user registration, stock data management, transaction handling, and more. The system is designed to use Redis for caching and Celery for asynchronous task processing.
+
 ---
 
 ## Features 🚀
@@ -11,9 +12,8 @@ This repository contains the implementation of a stock trading system with vario
 - **Redis** in-memory data structure store
 - **Celery** worker and beat services for running background tasks asynchronously
 - **Swagger** API Documentation and Testing
+- **Docker** Containerization and Deployment Tool
   
-
-
 
 ## Requirements 📋
 
@@ -106,6 +106,8 @@ celery -A DjangoProject worker -l INFO
 ```
 python manage.py runserver
 ```
+You can now access the application at http://localhost:8000. The development environment allows for immediate reflection of code changes.
+
 
 #### Access Swagger Documentation:
 

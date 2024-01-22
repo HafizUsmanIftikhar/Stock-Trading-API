@@ -8,8 +8,8 @@ Follow the steps below to set up the stock trading system:
 #### Clone the Repository:
 
 ```
-git clone https://github.com/yourusername/stock-trading-system.git
-cd stock-trading-system
+git@github.com:HafizUsmanIftikhar/Stock-Trading-API.git
+cd Stock-Trading-API
 ```
 #### Create Virtual Environment:
 ```

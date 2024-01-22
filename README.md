@@ -11,30 +11,30 @@ This repository contains the implementation of a stock trading system with vario
 ### Data Models
 #### Users
 
-   - user_id: Unique identifier for each user.
-   - username: User's username.
-   - balance: User's current balance.
-
+   - 'user_id': Unique identifier for each user.
+   - 'username': User's username.
+   - 'balance': User's current balance.
 
 #### StockData
 
-    - ticker: Stock ticker symbol.
-    - open_price: Opening stock price.
-    - close_price: Closing stock price.
-    - high: Highest stock price.
-    - low: Lowest stock price.
-    - volume: Stock trading volume.
-    - timestamp: Timestamp of stock data.
+
+    - ' ticker': Stock ticker symbol.
+    - 'open_price': Opening stock price.
+    - 'close_price': Closing stock price.
+    - 'high': Highest stock price.
+    - 'low': Lowest stock price.
+    - 'volume': Stock trading volume.
+    - 'timestamp: Timestamp of stock data.
 
 #### Transactions
 
-    transaction_id: Unique identifier for each transaction.
-    user_id: Foreign key referencing the Users table.
-    ticker: Stock ticker symbol.
-    transaction_type: Type of transaction (buy/sell).
-    transaction_volume: Volume of the transaction.
-    transaction_price: Price of the transaction.
-    timestamp: Timestamp of the transaction.
+   -' transaction_id': Unique identifier for each transaction.
+   - 'user_id': Foreign key referencing the Users table.
+   - 'ticker': Stock ticker symbol.
+    - 'transaction_type': Type of transaction (buy/sell).
+   - ' transaction_volume': Volume of the transaction.
+   - 'transaction_price': Price of the transaction.
+   -  'timestamp': Timestamp of the transaction.
 
 
 

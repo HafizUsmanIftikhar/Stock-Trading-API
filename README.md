@@ -56,6 +56,8 @@ Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 ```
 celery -A DjangoProject flower
 ```
+Visit [http://localhost:5555/](http://localhost:5555/) to monitor Celery tasks using Flower.
+
 
 ## For Docker Setup
 
@@ -82,3 +84,14 @@ sudo docker-compose up --build -d
 ```
 sudo docker-compose down
 ```
+
+## Assumptions
+- The system assumes a PostgreSQL database for storing user data, stock data, and transactions.
+- Redis is used for caching user data and stock data to reduce database load.
+- Celery is employed for handling asynchronous tasks, especially for processing transactions.
+- Swagger documentation is available for easy exploration of the API endpoints.
+- Flower is used for monitoring Celery tasks and their states
+
+Feel free to modify the setup based on your specific requirements
+
+

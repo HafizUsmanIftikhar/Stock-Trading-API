@@ -59,7 +59,7 @@ This repository contains the implementation of a stock trading system with vario
 
 ![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/b32879a1-f126-40e9-b537-80cc0a2867c4)
 
-
+![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/658d0fea-6b4b-4364-bfe8-1a228b81b125)
 
 ---
 

@@ -53,7 +53,7 @@ This repository contains the implementation of a stock trading system with vario
 
 ---
 ## API Overview 📚
-![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/df66f3ac-f546-411e-b8e0-e55ad8502ed5)
+![Swagger Documentation](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/df66f3ac-f546-411e-b8e0-e55ad8502ed5)
 
 
 

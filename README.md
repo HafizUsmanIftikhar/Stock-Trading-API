@@ -17,14 +17,13 @@ This repository contains the implementation of a stock trading system with vario
 
 #### StockData
 
-
-    - ' ticker': Stock ticker symbol.
-    - 'open_price': Opening stock price.
-    - 'close_price': Closing stock price.
-    - 'high': Highest stock price.
-    - 'low': Lowest stock price.
-    - 'volume': Stock trading volume.
-    - 'timestamp: Timestamp of stock data.
+   -' ticker': Stock ticker symbol.
+   -  'open_price': Opening stock price.
+   -  ' close_price': Closing stock price.
+   -  ' high': Highest stock price.
+   -  'volume': Stock trading volume.
+   -  'timestamp': Timestamp of stock data.
+     
 
 #### Transactions
 

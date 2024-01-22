@@ -1,5 +1,58 @@
 # Stock-Trading-API
-# Docker Compose for Django, Celery, Redis, and Postgres
+##### Docker Compose for Django, Celery, Redis, and Postgres
+This repository contains the implementation of a stock trading system with various endpoints for user registration, stock data management, transaction handling, and more. The system is designed to use Redis for caching and Celery for asynchronous task processing.
+
+### Setup Guide
+Follow the steps below to set up the stock trading system:
+
+#### Clone the Repository:
+
+```
+git clone https://github.com/yourusername/stock-trading-system.git
+cd stock-trading-system
+```
+#### Create Virtual Environment:
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+```
+#### Install Dependencies:
+
+```
+pip install -r requirements.txt
+
+```
+
+#### Run Migrations:
+```
+python manage.py makemigrations
+python manage.py migrate
+
+```
+#### Run Redis server
+```
+redis-server
+```
+
+#### Run Celery Worker:
+```
+celery -A DjangoProject worker -l INFO
+
+```
+
+#### Run Django Development Server:
+
+```
+python manage.py runserver
+```
+
+#### Monitor Celery Tasks with Flower:
+```
+celery -A DjangoProject flower
+```
+
+
 
 #### Build docker
 

@@ -61,6 +61,15 @@ This repository contains the implementation of a stock trading system with vario
 
 ![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/658d0fea-6b4b-4364-bfe8-1a228b81b125)
 
+![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/f9f3f52e-5f5f-4ade-9252-02ed226afebe)
+![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/e446774f-5e71-442f-b8f9-f726ec613a59)
+
+![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/2a31f6ad-45a9-4f96-a93e-c99b91b02043)
+
+![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/347372a8-6bdb-419c-839c-5faef028d755)
+
+![image](https://github.com/HafizUsmanIftikhar/Stock-Trading-API/assets/102325194/78ce22e3-ea0b-4040-b241-92133b575540)
+
 ---
 
 ## Getting Started 🏁
@@ -94,7 +103,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 ```
-#### Run Redis server
+#### Run the Redis server
 ```
 redis-server
 ```

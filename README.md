@@ -146,6 +146,7 @@ sudo docker-compose up --build -d
 ```
 sudo docker-compose down
 ```
+---
 
 ## Assumptions
 - The system assumes a PostgreSQL database for storing user data, stock data, and transactions.
@@ -155,5 +156,7 @@ sudo docker-compose down
 - Flower is used for monitoring Celery tasks and their states
 
 Feel free to modify the setup based on your specific requirements
+
+---
 
 

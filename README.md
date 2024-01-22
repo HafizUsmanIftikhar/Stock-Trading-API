@@ -47,6 +47,11 @@ celery -A DjangoProject worker -l INFO
 python manage.py runserver
 ```
 
+#### Access Swagger Documentation:
+
+Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+
 #### Monitor Celery Tasks with Flower:
 ```
 celery -A DjangoProject flower

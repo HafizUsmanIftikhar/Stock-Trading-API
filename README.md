@@ -19,15 +19,10 @@ This repository contains the implementation of a stock trading system with vario
 
 - Docker & Docker Compose - [Install and Use Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 - Python 3.10 or higher
-- Make (optional for shortcuts)
+- Django 4.2
 
 ---
 
-### Table of Contents
-    Data Models
-    API Endpoints
-    Setup Guide
-    Assumptions
 
 ### Data Models
 #### Users
@@ -57,7 +52,10 @@ This repository contains the implementation of a stock trading system with vario
    - 'timestamp': Timestamp of the transaction.
 
 ---
+## API Overview 📚
 
+
+---
 
 ## Getting Started 🏁
 

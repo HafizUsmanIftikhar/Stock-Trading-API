@@ -24,14 +24,14 @@ This repository contains the implementation of a stock trading system with vario
 ---
 
 
-### Data Models
-#### Users
+## Data Models
+### 🤵 Users
 
    - 'user_id': Unique identifier for each user.
    - 'username': User's username.
    - 'balance': User's current balance.
 
-#### StockData
+### 📈  StockData
 
    - 'ticker': Stock ticker symbol.
    -  'open_price': Opening stock price.
@@ -41,7 +41,7 @@ This repository contains the implementation of a stock trading system with vario
    -  'timestamp': Timestamp of stock data.
      
 
-#### Transactions
+### 🔄 Transactions
 
    - 'transaction_id': Unique identifier for each transaction.
    - 'user_id': Foreign key referencing the Users table.

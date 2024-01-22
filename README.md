@@ -24,7 +24,7 @@ This repository contains the implementation of a stock trading system with vario
 ---
 
 
-## Data Models
+## Data Models Overview
 ### 🤵 Users
 
    - 'user_id': Unique identifier for each user.

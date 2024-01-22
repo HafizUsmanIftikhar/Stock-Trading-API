@@ -61,7 +61,8 @@ This repository contains the implementation of a stock trading system with vario
 
 ## Getting Started 🏁
 
-### Setup Guide
+### Development Prerequisites
+
 Follow the steps below to set up the stock trading system:
 
 #### Clone the Repository:
@@ -117,8 +118,10 @@ celery -A DjangoProject flower
 ```
 Visit [http://localhost:5555/](http://localhost:5555/) to monitor Celery tasks using Flower.
 
+---
 
-## For Docker Setup
+
+## For Docker Setup ⚙️
 
 #### Build docker
 
